@@ -1,5 +1,9 @@
 package org.sebsy.demo.escaperooms.controller;
 
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+@Component
 public class EscapeRoom1Controller {
 
     public void entreeSalle1() {
